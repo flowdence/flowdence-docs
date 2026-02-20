@@ -1,0 +1,43 @@
+// @ts-check
+import { defineConfig } from 'astro/config';
+import starlight from '@astrojs/starlight';
+
+const site = process.env.DOCS_SITE_URL || 'https://flowdence.github.io';
+const base = normalizeBase(process.env.DOCS_BASE_PATH || '/flowdence-docs/');
+
+export default defineConfig({
+	site,
+	base,
+	trailingSlash: 'always',
+	integrations: [
+		starlight({
+			title: 'Flowdence Docs',
+			description: 'Flowdence company, policy, and product documentation.',
+			sidebar: [
+				{
+					label: 'Flowdence (/docs)',
+					autogenerate: { directory: 'docs' },
+				},
+				{
+					label: 'ApprovalFlow (/approvalflow/docs)',
+					autogenerate: { directory: 'approvalflow/docs' },
+				},
+				{
+					label: 'MuleSight (/mulesight/docs)',
+					autogenerate: { directory: 'mulesight/docs' },
+				},
+			],
+		}),
+	],
+});
+
+function normalizeBase(value) {
+	let basePath = value.trim();
+	if (!basePath.startsWith('/')) {
+		basePath = `/${basePath}`;
+	}
+	if (!basePath.endsWith('/')) {
+		basePath = `${basePath}/`;
+	}
+	return basePath;
+}
