@@ -19,15 +19,15 @@ export default defineConfig({
 			description: 'Flowdence company, policy, and product documentation.',
 			sidebar: [
 				{
-					label: 'Flowdence (/docs)',
+					label: 'Flowdence',
 					autogenerate: { directory: 'docs' },
 				},
 				{
-					label: 'ApprovalFlow (/approvalflow/docs)',
+					label: 'ApprovalFlow',
 					autogenerate: { directory: 'approvalflow/docs' },
 				},
 				{
-					label: 'MuleSight (/mulesight/docs)',
+					label: 'MuleSight',
 					autogenerate: { directory: 'mulesight/docs' },
 				},
 			],
