@@ -1,5 +1,4 @@
-/* On Flowdence docs pages, hide product groups from the left sidebar. */
-html[data-docs-section='flowdence'] nav.sidebar .top-level > li:nth-child(2),
-html[data-docs-section='flowdence'] nav.sidebar .top-level > li:nth-child(3) {
+/* When a Flowdence (/docs) page is active, hide product sections in the sidebar. */
+nav.sidebar .top-level > li:nth-child(1):has(a[aria-current='page']) ~ li {
 	display: none;
 }
