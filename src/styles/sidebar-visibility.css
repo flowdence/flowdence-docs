@@ -1,4 +1,6 @@
-/* When a Flowdence (/docs) page is active, hide product sections in the sidebar. */
-nav.sidebar .top-level > li:nth-child(1):has(a[aria-current='page']) ~ li {
+/* Show only the active top-level docs section in the sidebar. */
+nav.sidebar .top-level:has(> li:nth-child(1) a[aria-current='page']) > li:not(:nth-child(1)),
+nav.sidebar .top-level:has(> li:nth-child(2) a[aria-current='page']) > li:not(:nth-child(2)),
+nav.sidebar .top-level:has(> li:nth-child(3) a[aria-current='page']) > li:not(:nth-child(3)) {
 	display: none;
 }
