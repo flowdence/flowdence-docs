@@ -42,6 +42,12 @@ After build/deploy, these paths are available:
   - `src/content/docs/.../assets` (for Astro image resolution/optimization)
   - `public/.../assets` (for static video/file links like `.webm`)
 
+## Sidebar labels from source folders
+
+- `docs:import` also writes `src/generated/sidebar-labels.json`.
+- Product labels are derived from private source folder names (for example `MuleSight for Confluence`).
+- Update source folder names in private docs and re-run `npm run docs:import`; no manual sidebar label edits are needed in `astro.config.mjs`.
+
 ## Commands
 
 ### 1) Import private markdown + assets

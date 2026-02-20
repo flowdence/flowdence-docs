@@ -1,0 +1,9 @@
+{
+  "flowdence": "Flowdence",
+  "flowdencePolicies": "flowdence-policies",
+  "productSpecificPolicies": "product-specific-policies",
+  "approvalflow": "ApprovalFlow for Confluence",
+  "mulesight": "MuleSight for Confluence",
+  "approvalflowPolicies": "ApprovalFlow for Confluence",
+  "mulesightPolicies": "MuleSight for Confluence"
+}

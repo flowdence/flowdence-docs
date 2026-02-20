@@ -9,6 +9,7 @@ const scriptDir = path.dirname(scriptFile);
 const repoRoot = path.resolve(scriptDir, '..');
 const contentRootAbs = path.join(repoRoot, 'src', 'content', 'docs');
 const publicRootAbs = path.join(repoRoot, 'public');
+const sidebarLabelsAbs = path.join(repoRoot, 'src', 'generated', 'sidebar-labels.json');
 
 const mappings = [
   {
@@ -178,11 +179,17 @@ async function main() {
     }
   }
 
+  const sidebarLabels = buildSidebarLabels();
+  if (!args.dryRun) {
+    await writeSidebarLabels(sidebarLabels);
+  }
+
   const modeLabel = args.dryRun ? 'DRY RUN' : 'IMPORT COMPLETE';
   console.log(`[${modeLabel}] Imported markdown files: ${importedFiles}`);
   console.log(`[${modeLabel}] Referenced assets: ${referencedAssets.size}`);
   if (!args.dryRun) {
     console.log(`[${modeLabel}] Copied assets: ${copiedAssets}`);
+    console.log(`[${modeLabel}] Sidebar labels written: src/generated/sidebar-labels.json`);
   }
 }
 
@@ -507,6 +514,42 @@ function shouldSkipAsset(assetRel) {
 
 function escapeDoubleQuotedYaml(value) {
   return value.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+}
+
+function buildSidebarLabels() {
+  const flowdencePolicies = getRequiredDirMapping('flowdence-policies');
+  const approvalflowProductPolicies = getRequiredDirMapping('approvalflow-product-specific-policies');
+  const mulesightProductPolicies = getRequiredDirMapping('mulesight-product-specific-policies');
+  const approvalflowDocs = getRequiredDirMapping('approvalflow-docs');
+  const mulesightDocs = getRequiredDirMapping('mulesight-docs');
+
+  return {
+    flowdence: 'Flowdence',
+    flowdencePolicies: posixBaseName(flowdencePolicies.sourceDirRel),
+    productSpecificPolicies: posixBaseName(path.posix.dirname(approvalflowProductPolicies.sourceDirRel)),
+    approvalflow: posixBaseName(approvalflowDocs.sourceDirRel),
+    mulesight: posixBaseName(mulesightDocs.sourceDirRel),
+    approvalflowPolicies: posixBaseName(approvalflowProductPolicies.sourceDirRel),
+    mulesightPolicies: posixBaseName(mulesightProductPolicies.sourceDirRel),
+  };
+}
+
+function getRequiredDirMapping(id) {
+  const mapping = mappings.find((item) => item.id === id && item.kind === 'dir');
+  if (!mapping) {
+    throw new Error(`Missing required mapping: ${id}`);
+  }
+  return mapping;
+}
+
+function posixBaseName(value) {
+  return path.posix.basename(toPosixPath(value).replace(/\/+$/, ''));
+}
+
+async function writeSidebarLabels(labels) {
+  await ensureDir(path.dirname(sidebarLabelsAbs));
+  const data = `${JSON.stringify(labels, null, 2)}\n`;
+  await fs.writeFile(sidebarLabelsAbs, data, 'utf8');
 }
 
 async function cleanGeneratedTargets(dryRun) {
