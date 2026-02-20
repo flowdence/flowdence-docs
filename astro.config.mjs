@@ -17,6 +17,26 @@ export default defineConfig({
 		starlight({
 			title: 'Flowdence Docs',
 			description: 'Flowdence company, policy, and product documentation.',
+			customCss: ['./src/styles/sidebar-visibility.css'],
+			head: [
+				{
+					tag: 'script',
+					content: `
+(() => {
+  const path = window.location.pathname;
+  let section = 'root';
+  if (path.includes('/approvalflow/docs/')) {
+    section = 'approvalflow';
+  } else if (path.includes('/mulesight/docs/')) {
+    section = 'mulesight';
+  } else if (path.includes('/docs/')) {
+    section = 'flowdence';
+  }
+  document.documentElement.dataset.docsSection = section;
+})();
+`,
+				},
+			],
 			sidebar: [
 				{
 					label: 'Flowdence',

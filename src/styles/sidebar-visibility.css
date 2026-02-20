@@ -1,0 +1,5 @@
+/* On Flowdence docs pages, hide product groups from the left sidebar. */
+html[data-docs-section='flowdence'] nav.sidebar .top-level > li:nth-child(2),
+html[data-docs-section='flowdence'] nav.sidebar .top-level > li:nth-child(3) {
+	display: none;
+}
