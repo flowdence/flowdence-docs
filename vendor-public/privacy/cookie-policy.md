@@ -2,30 +2,17 @@
 
 Last updated: 2026-02-16
 Owner: Flowdence Product Operations
-Applies to app: Flowdence websites and public documentation pages
 Review cadence: Quarterly and after platform or tooling changes
 
-## Do we use cookies?
+## Overview
 
-Flowdence pages may use cookies required for session integrity, security, and core page functionality. Where analytics or optional cookies are introduced, Flowdence will update this policy and implement consent handling as required by applicable law.
+Flowdence apps run entirely on the Atlassian Forge platform. Flowdence does not set, read, or manage any cookies of its own.
 
-## Cookie categories
+Any cookies present during use of a Flowdence app are set and managed by Atlassian as part of the host product (Confluence, Jira, etc.). For details on those cookies, refer to the [Atlassian Privacy Policy](https://www.atlassian.com/legal/privacy-policy) and [Atlassian Cookie Notice](https://www.atlassian.com/legal/cookies).
 
-| Category | Purpose | Consent requirement |
-|---|---|---|
-| Strictly necessary | Security, session continuity, and essential platform functionality | Not generally required under most privacy regimes |
-| Functional | Preference persistence and user-experience improvements | May require consent depending on jurisdiction and implementation |
-| Analytics/measurement | Service improvement and usage insights | Consent required where applicable |
-| Advertising/tracking | Marketing attribution and ad targeting | Consent required where applicable |
+## Flowdence documentation and marketing pages
 
-## Current operating position
-
-- No Flowdence-managed advertising cookies are intentionally deployed on policy pages at this time.
-- Atlassian-hosted or infrastructure-managed cookies may be present based on platform behavior.
-
-## Managing cookies
-
-Users can manage cookie behavior through browser settings and platform consent controls where provided.
+Where Flowdence operates its own websites or documentation pages, third-party hosting infrastructure may set strictly necessary cookies (e.g. for security or CDN routing). Flowdence does not deploy analytics, functional, or advertising cookies on these pages. If this changes, this policy will be updated and consent handling will be implemented as required by applicable law.
 
 ## Contact
 
