@@ -8,6 +8,10 @@ const base = normalizeBase(process.env.DOCS_BASE_PATH || '/flowdence-docs/');
 export default defineConfig({
 	site,
 	base,
+	build: {
+		// Keep asset output Jekyll-safe for branch-based GitHub Pages.
+		assets: 'assets',
+	},
 	trailingSlash: 'always',
 	integrations: [
 		starlight({
