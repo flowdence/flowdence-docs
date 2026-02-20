@@ -91,15 +91,33 @@ Defaults are set for GitHub **project pages**:
 - `DOCS_SITE_URL=https://flowdence.github.io`
 - `DOCS_BASE_PATH=/flowdence-docs/`
 
-## GitHub Pages setup (manual `gh-pages` branch)
+## GitHub Pages setup (recommended: GitHub Actions)
+
+Branch-based Pages deployment runs Jekyll and can drop Astro `_astro/*` assets. That causes the unstyled docs view.
+
+Use Actions-based deployment instead:
 
 1. In GitHub, open repository settings for `flowdence-docs`.
 2. Go to **Pages**.
-3. Set source to **Deploy from a branch**.
-4. Select branch **`gh-pages`** and folder **`/ (root)`**.
-5. Save.
+3. Set source to **GitHub Actions**.
+4. Save.
+5. Ensure workflow file exists:
+   - `.github/workflows/deploy-pages.yml`
 
-Then run deployment:
+Deploy flow:
+
+1. Import + validate locally:
+
+```bash
+npm run docs:import && npm run docs:validate
+```
+
+2. Commit and push `main`.
+3. GitHub Actions builds Astro and deploys `dist` directly to Pages.
+
+## Optional manual branch deploy (legacy)
+
+You can still publish `dist` to `gh-pages` manually:
 
 ```bash
 DOCS_SITE_URL="https://flowdence.github.io" \
@@ -107,7 +125,7 @@ DOCS_BASE_PATH="/flowdence-docs/" \
 npm run docs:import && npm run docs:validate && npm run build && npm run deploy:ghpages
 ```
 
-`npm run deploy:ghpages` publishes `dist/` to the `gh-pages` branch.
+If you use this legacy flow, branch-mode Pages may still run Jekyll and break Astro styles/scripts.
 
 ## Future custom-domain switch (later)
 
