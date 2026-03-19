@@ -1,0 +1,29 @@
+# Flowdence Docs
+
+> Official documentation for Flowdence products — ApprovalFlow and MuleSight for Atlassian Confluence Cloud.
+
+## Documentation Structure
+
+This site contains setup guides, feature references, policies, and trust resources for all Flowdence products.
+
+## Products
+
+### ApprovalFlow for Confluence
+- Docs: https://docs.flowdence.io/approvalflow/docs/getting-started/
+- Product page: https://flowdence.io/products/approvalflow
+- Marketplace: https://marketplace.atlassian.com/apps/2350565795/approvalflow-for-confluence
+- Description: Structured content approval workflows for Confluence Cloud. Multi-step review processes, version-aware page tracking, workflow analytics, and audit trails.
+
+### MuleSight for Confluence
+- Docs: https://docs.flowdence.io/mulesight/docs/getting-started/
+- Product page: https://flowdence.io/products/mulesight
+- Marketplace: https://marketplace.atlassian.com/apps/970479047/mulesight-for-confluence
+- Description: MuleSoft Anypoint visibility in Confluence. Live snapshot macros, environment drift detection, API security posture analysis, and Rovo AI agent.
+
+## Related Resources
+
+- Main site: https://flowdence.io
+- Blog: https://blog.flowdence.io
+- Support: https://flowdence.io/support
+- Trust center: https://flowdence.io/trust
+- Sitemap: https://docs.flowdence.io/sitemap-index.xml
