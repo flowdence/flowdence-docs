@@ -5,6 +5,43 @@
   }
   gtag("js", new Date());
   gtag("config", "G-H48FWL73KH");
+
+  document.addEventListener("click", function (event) {
+    if (typeof window.gtag !== "function") return;
+
+    var target = event.target;
+    if (!(target instanceof Element)) return;
+
+    var link = target.closest("a");
+    if (!link) return;
+
+    var href = link.href || "";
+    if (!href) return;
+
+    if (href.includes("marketplace.atlassian.com")) {
+      var product = href.includes("mulesight")
+        ? "mulesight"
+        : href.includes("approvalflow")
+          ? "approvalflow"
+          : "unknown";
+
+      gtag("event", "marketplace_click", {
+        product: product,
+        link_url: href
+      });
+    }
+
+    var buttonText = (link.textContent || "").trim();
+    if (
+      link.classList.contains("cta") ||
+      /try free|get started|install|sign up/i.test(buttonText)
+    ) {
+      gtag("event", "cta_click", {
+        button_text: buttonText,
+        link_url: href
+      });
+    }
+  });
 </script> <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Release notes 2026 02 16 | Flowdence Docs</title><link rel="canonical" href="https://docs.flowdence.io/approvalflow/docs/release-notes/release-notes-2026-02-16/"/><link rel="sitemap" href="/sitemap-index.xml"/><link rel="shortcut icon" href="/images/flowdence-icon.png" type="image/png"/><meta name="generator" content="Astro v5.17.3"/><meta name="generator" content="Starlight v0.37.6"/><meta property="og:title" content="Release notes 2026 02 16"/><meta property="og:type" content="article"/><meta property="og:url" content="https://docs.flowdence.io/approvalflow/docs/release-notes/release-notes-2026-02-16/"/><meta property="og:locale" content="en"/><meta property="og:description" content="Official documentation for Flowdence Company policies and its product's setup guides, feature references, product policies and trust resources."/><meta property="og:site_name" content="Flowdence Docs"/><meta name="description" content="Official documentation for Flowdence Company policies and its product's setup guides, feature references, product policies and trust resources."/><meta property="og:image" content="https://docs.flowdence.io/images/docs-og.png"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="https://docs.flowdence.io/images/docs-og.png"/><script>
 	window.StarlightThemeProvider = (() => {
 		const storedTheme =
