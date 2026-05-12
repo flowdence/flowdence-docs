@@ -25,4 +25,4 @@ Allow: /
 User-agent: GoogleOther
 Allow: /
 
-Sitemap: https://docs.flowdence.io/sitemap-index.xml
+Sitemap: https://flowdence.io/docs/sitemap-index.xml
