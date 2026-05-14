@@ -27,3 +27,4 @@ This site contains setup guides, feature references, policies, and trust resourc
 - Support: https://flowdence.io/support
 - Trust center: https://flowdence.io/trust
 - Sitemap: https://flowdence.io/docs/sitemap-index.xml
+- Full LLM context: https://flowdence.io/docs/llms-full.txt

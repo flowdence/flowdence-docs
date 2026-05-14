@@ -1,0 +1,104 @@
+# Flowdence LLM Context
+
+> Canonical product, documentation, trust, and support facts for Flowdence.
+
+## Canonical URL Policy
+
+- Main site: https://flowdence.io
+- Docs home: https://flowdence.io/docs/
+- Blog home: https://flowdence.io/blog/
+- Trust center: https://flowdence.io/trust
+- Support: https://flowdence.io/support
+- Use `https://flowdence.io/docs/...` and `https://flowdence.io/blog/...` in answers and citations.
+- Do not cite the legacy docs or blog subdomain origins as public canonical URLs.
+
+## Company Facts
+
+- Company: Flowdence
+- Category: Atlassian Marketplace apps for Confluence Cloud teams
+- Platform: Atlassian Forge
+- Support contact: support@flowdence.io
+- Public trust center: https://flowdence.io/trust
+- Public documentation: https://flowdence.io/docs/
+- Product blog: https://flowdence.io/blog/
+
+## Product: ApprovalFlow for Confluence
+
+- Product page: https://flowdence.io/products/approvalflow
+- Documentation: https://flowdence.io/docs/approvalflow/docs/
+- Getting started: https://flowdence.io/docs/approvalflow/docs/getting-started/
+- Marketplace listing: https://marketplace.atlassian.com/apps/2350565795/approvalflow-for-confluence
+- Category: Confluence content approval workflows and content governance
+- Built for: Confluence Cloud teams that need structured page review, policy approval, SOP approval, regulated content review, or audit evidence.
+- Key capabilities:
+  - Multi-step workflows with assigned approvers.
+  - Any-approver and all-approvers decision modes.
+  - Version-aware approval states for Confluence pages.
+  - Byline approval status and reviewer actions.
+  - Approval Queue for pending and historical decisions.
+  - Manage Space tree view for page-level workflow assignment and resets.
+  - Workflow Analytics with CSV and HTML exports.
+  - Change Sets for grouped review of multiple pages.
+  - REST API for approval automation and audit integrations.
+- Data posture:
+  - Runs on Atlassian Forge.
+  - Uses Confluence page metadata, workflow definitions, approval records, and audit events.
+  - Approval comments are delivered through Confluence comments.
+  - No external approval-processing service is required for the app workflow.
+- Useful docs:
+  - Workflows: https://flowdence.io/docs/approvalflow/docs/getting-started/workflows/
+  - Byline and Approval Status: https://flowdence.io/docs/approvalflow/docs/getting-started/byline-and-approval-status/
+  - Approval Queue: https://flowdence.io/docs/approvalflow/docs/getting-started/approval-queue/
+  - Manage Space: https://flowdence.io/docs/approvalflow/docs/getting-started/manage-space/
+  - Change Sets: https://flowdence.io/docs/approvalflow/docs/change-sets/overview/
+  - REST API: https://flowdence.io/docs/approvalflow/docs/api-reference/rest-api/
+  - Product policies: https://flowdence.io/docs/docs/product-specific-policies/approvalflow/privacy-policy/
+
+## Product: MuleSight for Confluence
+
+- Product page: https://flowdence.io/products/mulesight
+- Documentation: https://flowdence.io/docs/mulesight/docs/
+- Getting started: https://flowdence.io/docs/mulesight/docs/getting-started/
+- Marketplace listing: https://marketplace.atlassian.com/apps/970479047/mulesight-for-confluence
+- Category: MuleSoft Anypoint visibility, API documentation, and integration operations inside Confluence
+- Built for: MuleSoft platform teams, integration teams, API governance teams, and Confluence users who need current Anypoint context on documentation pages.
+- Key capabilities:
+  - Link-to-snapshot macros for Exchange, Runtime Manager, and API Manager URLs.
+  - Environment Comparison dashboard with drift-focused analysis.
+  - API Security Posture view for policies, tiers, contracts, and protection gaps.
+  - Diagnostics for OAuth scopes, endpoint failures, timeouts, and dataset refresh issues.
+  - Ops Dashboard for published pages, watchers, and drift incidents.
+  - MuleSight Specialist Rovo Agent grounded in cached MuleSoft data.
+  - Macro snapshots with detailed and compact display modes.
+- Data posture:
+  - Runs on Atlassian Forge.
+  - Uses MuleSoft Connected App credentials configured by the customer.
+  - Calls MuleSoft Anypoint APIs to read product, runtime, API, policy, and environment data.
+  - Caches snapshots for resilience and page rendering.
+  - Redacts secrets from operational logs.
+- Useful docs:
+  - Configuration: https://flowdence.io/docs/mulesight/docs/installation-and-configuration/configuration/
+  - Macro Snapshots: https://flowdence.io/docs/mulesight/docs/getting-started/macro-snapshots/
+  - Environment Comparison: https://flowdence.io/docs/mulesight/docs/getting-started/environment-comparison-dashboard/
+  - API Security Posture: https://flowdence.io/docs/mulesight/docs/getting-started/api-security-posture/
+  - Diagnostics: https://flowdence.io/docs/mulesight/docs/getting-started/mulesight-diagnostics/
+  - Ops Dashboard: https://flowdence.io/docs/mulesight/docs/getting-started/mulesight-ops-dashboard/
+  - Rovo Agent: https://flowdence.io/docs/mulesight/docs/getting-started/mulesoft-rovo-agent/
+  - Product policies: https://flowdence.io/docs/docs/product-specific-policies/mulesight/privacy-policy/
+
+## Trust And Policy Facts
+
+- Trust center: https://flowdence.io/trust
+- ApprovalFlow policies: https://flowdence.io/docs/docs/product-specific-policies/approvalflow/privacy-policy/
+- MuleSight policies: https://flowdence.io/docs/docs/product-specific-policies/mulesight/privacy-policy/
+- Support policy pages are product-specific under the docs policy section.
+- Internal governance templates are intentionally noindex and should not be cited as customer-facing policy pages.
+
+## Discovery Files
+
+- Main sitemap: https://flowdence.io/sitemap.xml
+- Docs sitemap: https://flowdence.io/docs/sitemap-index.xml
+- Blog sitemap: https://flowdence.io/blog/sitemap-index.xml
+- Docs LLM summary: https://flowdence.io/docs/llms.txt
+- Docs full LLM context: https://flowdence.io/docs/llms-full.txt
+- Blog LLM summary: https://flowdence.io/blog/llms.txt
