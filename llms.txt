@@ -1,6 +1,6 @@
 # Flowdence Docs
 
-> Official documentation for Flowdence products — ApprovalFlow and MuleSight for Atlassian Confluence Cloud.
+> Official documentation for Flowdence products — ApprovalFlow, MuleSight, and GrafanaSight for Atlassian Confluence Cloud.
 
 ## Documentation Structure
 
@@ -19,6 +19,11 @@ This site contains setup guides, feature references, policies, and trust resourc
 - Product page: https://flowdence.io/products/mulesight
 - Marketplace: https://marketplace.atlassian.com/apps/970479047/mulesight-for-confluence
 - Description: MuleSoft Anypoint visibility in Confluence. Live snapshot macros, environment drift detection, API security posture analysis, and Rovo AI agent.
+
+### GrafanaSight for Confluence
+- Docs: https://flowdence.io/docs/grafanasight/docs/
+- Product page: https://flowdence.io/products/grafanasight
+- Description: Grafana Cloud visibility in Confluence. Panel snapshots, dashboard and alert context, annotations, sync health, and a cache-first Rovo Specialist for runbooks and incident reports.
 
 ## Related Resources
 

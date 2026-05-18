@@ -86,11 +86,40 @@
   - Rovo Agent: https://flowdence.io/docs/mulesight/docs/getting-started/mulesoft-rovo-agent/
   - Product policies: https://flowdence.io/docs/docs/product-specific-policies/mulesight/privacy-policy/
 
+## Product: GrafanaSight for Confluence
+
+- Product page: https://flowdence.io/products/grafanasight
+- Documentation: https://flowdence.io/docs/grafanasight/docs/
+- Getting started: https://flowdence.io/docs/grafanasight/docs/getting-started/panel-macros-and-time-ranges/
+- Category: Grafana Cloud observability, runbook context, incident review, and alert visibility inside Confluence
+- Built for: SRE, platform, DevOps, and engineering teams that document runbooks, postmortems, dashboard context, and incident timelines in Confluence.
+- Key capabilities:
+  - Grafana panel snapshot macros with relative and absolute time ranges.
+  - Dashboard catalog and panel metadata inside a Confluence space.
+  - Active alert and annotation context for runbooks and incident reports.
+  - Page-level refresh controls and sync health indicators.
+  - Cache-first GrafanaSight Specialist Rovo agent for dashboards, alerts, freshness, and incident-summary drafts.
+  - Space-scoped configuration for customer-managed Grafana Cloud tenants.
+- Data posture:
+  - Runs on Atlassian Forge.
+  - Uses customer-provided Grafana service account tokens stored with Forge secret storage.
+  - Calls customer Grafana Cloud tenants to retrieve authorized dashboard, panel, alert, and annotation data.
+  - Caches observability snapshots for resilience and page rendering.
+  - Does not affiliate Flowdence with, or imply endorsement by, Grafana Labs.
+- Useful docs:
+  - Installation: https://flowdence.io/docs/grafanasight/docs/installation-and-configuration/installation/
+  - Configuration: https://flowdence.io/docs/grafanasight/docs/installation-and-configuration/configuration/
+  - Panel Macros and Time Ranges: https://flowdence.io/docs/grafanasight/docs/getting-started/panel-macros-and-time-ranges/
+  - Dashboard and Alert Views: https://flowdence.io/docs/grafanasight/docs/getting-started/dashboard-and-alert-views/
+  - Rovo Specialist: https://flowdence.io/docs/grafanasight/docs/getting-started/rovo-specialist/
+  - Product policies: https://flowdence.io/docs/docs/product-specific-policies/grafanasight/privacy-policy/
+
 ## Trust And Policy Facts
 
 - Trust center: https://flowdence.io/trust
 - ApprovalFlow policies: https://flowdence.io/docs/docs/product-specific-policies/approvalflow/privacy-policy/
 - MuleSight policies: https://flowdence.io/docs/docs/product-specific-policies/mulesight/privacy-policy/
+- GrafanaSight policies: https://flowdence.io/docs/docs/product-specific-policies/grafanasight/privacy-policy/
 - Support policy pages are product-specific under the docs policy section.
 - Internal governance templates are intentionally noindex and should not be cited as customer-facing policy pages.
 
