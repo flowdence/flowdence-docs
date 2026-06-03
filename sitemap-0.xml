@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 <loc>https://flowdence.io/docs/</loc>
-<lastmod>2026-06-01T16:39:39.000Z</lastmod>
+<lastmod>2026-06-03T08:09:08.000Z</lastmod>
 </url>
 <url>
 <loc>https://flowdence.io/docs/approvalflow/docs/</loc>
@@ -102,7 +102,7 @@
 </url>
 <url>
 <loc>https://flowdence.io/docs/boomisight/docs/installation-and-configuration/configuration/</loc>
-<lastmod>2026-06-01T16:39:39.000Z</lastmod>
+<lastmod>2026-06-03T08:09:08.000Z</lastmod>
 </url>
 <url>
 <loc>https://flowdence.io/docs/boomisight/docs/installation-and-configuration/installation/</loc>
@@ -118,7 +118,7 @@
 </url>
 <url>
 <loc>https://flowdence.io/docs/boomisight/docs/release-notes/release-notes-2026-05-30/</loc>
-<lastmod>2026-06-01T16:39:39.000Z</lastmod>
+<lastmod>2026-06-03T08:09:08.000Z</lastmod>
 </url>
 <url>
 <loc>https://flowdence.io/docs/docs/</loc>
@@ -162,7 +162,7 @@
 </url>
 <url>
 <loc>https://flowdence.io/docs/docs/product-specific-policies/boomisight/data-handling-disclosure/</loc>
-<lastmod>2026-06-01T16:39:39.000Z</lastmod>
+<lastmod>2026-06-03T08:09:08.000Z</lastmod>
 </url>
 <url>
 <loc>https://flowdence.io/docs/docs/product-specific-policies/boomisight/privacy-policy/</loc>
@@ -170,19 +170,19 @@
 </url>
 <url>
 <loc>https://flowdence.io/docs/docs/product-specific-policies/boomisight/provider-specific-terms-addendum/</loc>
-<lastmod>2026-06-01T16:39:39.000Z</lastmod>
+<lastmod>2026-06-03T08:09:08.000Z</lastmod>
 </url>
 <url>
 <loc>https://flowdence.io/docs/docs/product-specific-policies/boomisight/security-policy/</loc>
-<lastmod>2026-06-01T16:39:39.000Z</lastmod>
+<lastmod>2026-06-03T08:09:08.000Z</lastmod>
 </url>
 <url>
 <loc>https://flowdence.io/docs/docs/product-specific-policies/boomisight/support-policy/</loc>
-<lastmod>2026-06-01T16:39:39.000Z</lastmod>
+<lastmod>2026-06-03T08:09:08.000Z</lastmod>
 </url>
 <url>
 <loc>https://flowdence.io/docs/docs/product-specific-policies/boomisight/terms-of-use/</loc>
-<lastmod>2026-06-01T16:39:39.000Z</lastmod>
+<lastmod>2026-06-03T08:09:08.000Z</lastmod>
 </url>
 <url>
 <loc>https://flowdence.io/docs/docs/product-specific-policies/grafanasight/data-handling-disclosure/</loc>
