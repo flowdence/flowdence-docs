@@ -1,6 +1,6 @@
 # Flowdence Docs
 
-> Official documentation for Flowdence products — ApprovalFlow, MuleSight, and GrafanaSight for Atlassian Confluence Cloud.
+> Official documentation for Flowdence products — ApprovalFlow, MuleSight, GrafanaSight, and BoomiSight for Atlassian Confluence Cloud.
 
 ## Documentation Structure
 
@@ -23,7 +23,14 @@ This site contains setup guides, feature references, policies, and trust resourc
 ### GrafanaSight for Confluence
 - Docs: https://flowdence.io/docs/grafanasight/docs/
 - Product page: https://flowdence.io/products/grafanasight
+- Marketplace: https://marketplace.atlassian.com/apps/2643908494/grafanasight-for-confluence
 - Description: Grafana Cloud visibility in Confluence. Panel snapshots, dashboard and alert context, annotations, sync health, and a cache-first Rovo Specialist for runbooks and incident reports.
+
+### BoomiSight for Confluence
+- Docs: https://flowdence.io/docs/boomisight/docs/
+- Product page: https://flowdence.io/products/boomisight
+- Marketplace: https://marketplace.atlassian.com/apps/2126489539/boomisight-for-confluence
+- Description: Boomi operational visibility in Confluence. Environment comparison, execution monitoring, API governance, connector inventory, deployment history, release notes, and Boomi runbook macros.
 
 ## Related Resources
 

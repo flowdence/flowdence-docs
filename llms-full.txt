@@ -91,6 +91,7 @@
 - Product page: https://flowdence.io/products/grafanasight
 - Documentation: https://flowdence.io/docs/grafanasight/docs/
 - Getting started: https://flowdence.io/docs/grafanasight/docs/getting-started/panel-macros-and-time-ranges/
+- Marketplace listing: https://marketplace.atlassian.com/apps/2643908494/grafanasight-for-confluence
 - Category: Grafana Cloud observability, runbook context, incident review, and alert visibility inside Confluence
 - Built for: SRE, platform, DevOps, and engineering teams that document runbooks, postmortems, dashboard context, and incident timelines in Confluence.
 - Key capabilities:
@@ -114,12 +115,45 @@
   - Rovo Specialist: https://flowdence.io/docs/grafanasight/docs/getting-started/rovo-specialist/
   - Product policies: https://flowdence.io/docs/docs/product-specific-policies/grafanasight/privacy-policy/
 
+## Product: BoomiSight for Confluence
+
+- Product page: https://flowdence.io/products/boomisight
+- Documentation: https://flowdence.io/docs/boomisight/docs/
+- Getting started: https://flowdence.io/docs/boomisight/docs/getting-started/environment-comparison-dashboard/
+- Marketplace listing: https://marketplace.atlassian.com/apps/2126489539/boomisight-for-confluence
+- Category: Boomi operational visibility, integration runbooks, deployment drift, API governance, and release evidence inside Confluence
+- Built for: Boomi platform teams, integration teams, release managers, and Confluence users who need current Boomi process, runtime, API, connector, execution, and deployment context in shared documentation.
+- Key capabilities:
+  - Space-scoped Boomi configuration and access diagnostics.
+  - Environment Comparison dashboard for deployment drift, branch policy, refresh state, and exports.
+  - Execution Dashboard for recent runs, failing processes, failing runtimes, status filters, and empty-state interpretation.
+  - API Governance dashboard for API services, drift, documentation state, and APIM enrichment or fallback signals.
+  - Diagnostics and Connector Inventory for source health, feature availability, connector usage, and dependent processes.
+  - Confluence macros for process snapshots, runtime health, environment summaries, API snapshots, deployment history, executions, blast radius, integration landscape summaries, release notes, and inline status badges.
+  - Practical runbook tutorials and screenshot or video backed evidence for setup, drift review, and operations runbooks.
+- Data posture:
+  - Runs on Atlassian Forge.
+  - Uses customer-provided Boomi API credentials configured per Confluence space.
+  - Calls Boomi APIs to retrieve authorized runtime, deployment, execution, API, connector, environment, and component metadata.
+  - Caches operational snapshots for resilient dashboard and macro rendering.
+  - Stores Boomi API tokens through Forge secret storage and avoids exposing token values in the UI.
+- Useful docs:
+  - Installation: https://flowdence.io/docs/boomisight/docs/installation-and-configuration/installation/
+  - Configuration: https://flowdence.io/docs/boomisight/docs/installation-and-configuration/configuration/
+  - Environment Comparison: https://flowdence.io/docs/boomisight/docs/getting-started/environment-comparison-dashboard/
+  - Execution Dashboard: https://flowdence.io/docs/boomisight/docs/getting-started/execution-dashboard/
+  - API Governance: https://flowdence.io/docs/boomisight/docs/getting-started/api-governance/
+  - Macro Reference: https://flowdence.io/docs/boomisight/docs/getting-started/macro-reference/
+  - Operations Runbook tutorial: https://flowdence.io/docs/boomisight/docs/tutorials/build-a-boomi-operations-runbook/
+  - Product policies: https://flowdence.io/docs/docs/product-specific-policies/boomisight/privacy-policy/
+
 ## Trust And Policy Facts
 
 - Trust center: https://flowdence.io/trust
 - ApprovalFlow policies: https://flowdence.io/docs/docs/product-specific-policies/approvalflow/privacy-policy/
 - MuleSight policies: https://flowdence.io/docs/docs/product-specific-policies/mulesight/privacy-policy/
 - GrafanaSight policies: https://flowdence.io/docs/docs/product-specific-policies/grafanasight/privacy-policy/
+- BoomiSight policies: https://flowdence.io/docs/docs/product-specific-policies/boomisight/privacy-policy/
 - Support policy pages are product-specific under the docs policy section.
 - Internal governance templates are intentionally noindex and should not be cited as customer-facing policy pages.
 
