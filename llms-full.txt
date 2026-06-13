@@ -17,7 +17,7 @@
 - Company: Flowdence
 - Category: Atlassian Marketplace apps for Confluence Cloud teams
 - Platform: Atlassian Forge
-- Support contact: support@flowdence.io
+- Support contact: https://flowdence.io/support
 - Public trust center: https://flowdence.io/trust
 - Public documentation: https://flowdence.io/docs/
 - Product blog: https://flowdence.io/blog/
