@@ -147,6 +147,34 @@
   - Operations Runbook tutorial: https://flowdence.io/docs/boomisight/docs/tutorials/build-a-boomi-operations-runbook/
   - Product policies: https://flowdence.io/docs/docs/product-specific-policies/boomisight/privacy-policy/
 
+## Product: WorkatoSight for Confluence
+
+- Product page: https://flowdence.io/products/workatosight
+- Documentation: https://flowdence.io/docs/workatosight/docs/
+- Getting started: https://flowdence.io/docs/workatosight/docs/getting-started/macro-reference/
+- Marketplace listing: Marketplace listing pending approval
+- Category: Workato architecture documentation, API posture, runtime evidence, dependency context, and integration operations inside Confluence
+- Built for: Workato architects, integration developers, platform teams, and Confluence users who need current Workato context in shared documentation.
+- Key capabilities:
+  - Space-scoped Workato configuration and access diagnostics.
+  - Cache-backed dashboards for Projects, Folders, Recipes, Connections, Lookup Tables, API Collections, API Endpoints, API Clients, API Keys, runtime rollups, and refresh state.
+  - Native Confluence macros for Recipe, Project, Connection, API Collection, API Client, API Endpoint, API Security, Environment Summary, Config Data, and Runtime Evidence views.
+  - Recipe Detailed, Compact, and Summary display options through native Confluence Display options.
+  - Page bylines for Workato Architecture and Workato APIs.
+  - Documentation Coverage scans for Workato links and WorkatoSight macro context.
+- Data posture:
+  - Runs on Atlassian Forge.
+  - Uses customer-provided Workato API access configured per Confluence space.
+  - Calls authorized Workato APIs for customer-selected metadata and runtime evidence.
+  - Caches Workato facts for resilient dashboards, macros, and bylines.
+  - Stores Workato credentials through Forge secret storage and avoids exposing credential values in the UI.
+- Useful docs:
+  - Installation: https://flowdence.io/docs/workatosight/docs/installation-and-configuration/installation/
+  - Configuration: https://flowdence.io/docs/workatosight/docs/installation-and-configuration/configuration/
+  - Macro Reference: https://flowdence.io/docs/workatosight/docs/getting-started/macro-reference/
+  - Help and Support: https://flowdence.io/docs/workatosight/docs/help-and-support/
+  - Product policies: https://flowdence.io/docs/docs/product-specific-policies/workatosight/privacy-policy/
+
 ## Trust And Policy Facts
 
 - Trust center: https://flowdence.io/trust
@@ -154,6 +182,7 @@
 - MuleSight policies: https://flowdence.io/docs/docs/product-specific-policies/mulesight/privacy-policy/
 - GrafanaSight policies: https://flowdence.io/docs/docs/product-specific-policies/grafanasight/privacy-policy/
 - BoomiSight policies: https://flowdence.io/docs/docs/product-specific-policies/boomisight/privacy-policy/
+- WorkatoSight policies: https://flowdence.io/docs/docs/product-specific-policies/workatosight/privacy-policy/
 - Support policy pages are product-specific under the docs policy section.
 - Internal governance templates are intentionally noindex and should not be cited as customer-facing policy pages.
 
