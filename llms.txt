@@ -30,7 +30,7 @@ This site contains setup guides, feature references, policies, and trust resourc
 - Docs: https://flowdence.io/docs/boomisight/docs/
 - Product page: https://flowdence.io/products/boomisight
 - Marketplace: https://marketplace.atlassian.com/apps/2126489539/boomisight-for-confluence
-- Description: Boomi operational visibility in Confluence. Environment comparison, execution monitoring, API governance, connector inventory, deployment history, release notes, and Boomi runbook macros.
+- Description: Boomi operational and documentation context in Confluence. Dashboards, page-aware Documentation Health, safe Process Property and XREF structure, verified relationships, runbook macros, and a cache-first BoomiSight Specialist.
 
 ### WorkatoSight for Confluence
 - Docs: https://flowdence.io/docs/workatosight/docs/

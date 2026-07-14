@@ -121,28 +121,36 @@
 - Documentation: https://flowdence.io/docs/boomisight/docs/
 - Getting started: https://flowdence.io/docs/boomisight/docs/getting-started/environment-comparison-dashboard/
 - Marketplace listing: https://marketplace.atlassian.com/apps/2126489539/boomisight-for-confluence
-- Category: Boomi operational visibility, integration runbooks, deployment drift, API governance, and release evidence inside Confluence
-- Built for: Boomi platform teams, integration teams, release managers, and Confluence users who need current Boomi process, runtime, API, connector, execution, and deployment context in shared documentation.
+- Category: Boomi operational visibility, page-aware documentation health, integration runbooks, verified configuration relationships, API governance, and release evidence inside Confluence
+- Built for: Boomi platform teams, integration teams, release managers, and Confluence users who need safe process, runtime, API, connector, execution, deployment, Process Property, and XREF context in shared documentation.
 - Key capabilities:
   - Space-scoped Boomi configuration and access diagnostics.
   - Environment Comparison dashboard for deployment drift, branch policy, refresh state, and exports.
   - Execution Dashboard for recent runs, failing processes, failing runtimes, status filters, and empty-state interpretation.
   - API Governance dashboard for API services, drift, documentation state, and APIM enrichment or fallback signals.
   - Diagnostics and Connector Inventory for source health, feature availability, connector usage, and dependent processes.
-  - Confluence macros for process snapshots, runtime health, environment summaries, API snapshots, deployment history, executions, blast radius, integration landscape summaries, release notes, and inline status badges.
+  - Boomi Architecture and Boomi APIs bylines for genuinely page-associated context, freshness, and review signals.
+  - Explicit bounded Documentation Health scans with page links, freshness, and configuration findings for the current Confluence space.
+  - Confluence macros for process snapshots, runtime health, environment summaries, API snapshots, deployment history, executions, blast radius, integration landscape summaries, release notes, inline status badges, and safe Process Property/XREF structure.
+  - Optional Process Snapshot configuration dependencies derived from the selected process's current Boomi Build graph, with verified relationship provenance.
+  - Cache-first BoomiSight Specialist answers over trusted current-page or current-space facts, with truthful freshness, unknown, partial, and truncation states.
   - Practical runbook tutorials and screenshot or video backed evidence for setup, drift review, and operations runbooks.
 - Data posture:
   - Runs on Atlassian Forge.
   - Uses customer-provided Boomi API credentials configured per Confluence space.
   - Calls Boomi APIs to retrieve authorized runtime, deployment, execution, API, connector, environment, and component metadata.
-  - Caches operational snapshots for resilient dashboard and macro rendering.
+  - Caches bounded operational, relationship, page-context, and Documentation Health facts for resilient dashboard, macro, byline, and Rovo rendering.
   - Stores Boomi API tokens through Forge secret storage and avoids exposing token values in the UI.
+  - Reads Confluence pages for page-local context and explicit bounded Documentation Health scans, uses space-write access only for the configured-space marker, and does not request page-write access.
+  - Excludes raw Process Property values, XREF rows or cells, credentials, source payloads, internal identifiers, account identifiers, and raw URLs from UI and Rovo projections.
 - Useful docs:
   - Installation: https://flowdence.io/docs/boomisight/docs/installation-and-configuration/installation/
   - Configuration: https://flowdence.io/docs/boomisight/docs/installation-and-configuration/configuration/
   - Environment Comparison: https://flowdence.io/docs/boomisight/docs/getting-started/environment-comparison-dashboard/
   - Execution Dashboard: https://flowdence.io/docs/boomisight/docs/getting-started/execution-dashboard/
   - API Governance: https://flowdence.io/docs/boomisight/docs/getting-started/api-governance/
+  - Documentation Health and Page Context: https://flowdence.io/docs/boomisight/docs/getting-started/documentation-health-and-page-context/
+  - BoomiSight Specialist: https://flowdence.io/docs/boomisight/docs/getting-started/boomisight-specialist/
   - Macro Reference: https://flowdence.io/docs/boomisight/docs/getting-started/macro-reference/
   - Operations Runbook tutorial: https://flowdence.io/docs/boomisight/docs/tutorials/build-a-boomi-operations-runbook/
   - Product policies: https://flowdence.io/docs/docs/product-specific-policies/boomisight/privacy-policy/
