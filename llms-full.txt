@@ -180,6 +180,7 @@
   - Installation: https://flowdence.io/docs/workatosight/docs/installation-and-configuration/installation/
   - Configuration: https://flowdence.io/docs/workatosight/docs/installation-and-configuration/configuration/
   - Macro Reference: https://flowdence.io/docs/workatosight/docs/getting-started/macro-reference/
+  - Latest release notes: https://flowdence.io/docs/workatosight/docs/release-notes/release-notes-2026-07-16/
   - Help and Support: https://flowdence.io/docs/workatosight/docs/help-and-support/
   - Product policies: https://flowdence.io/docs/docs/product-specific-policies/workatosight/privacy-policy/
 

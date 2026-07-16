@@ -36,6 +36,7 @@ This site contains setup guides, feature references, policies, and trust resourc
 - Docs: https://flowdence.io/docs/workatosight/docs/
 - Product page: https://flowdence.io/products/workatosight
 - Marketplace: Marketplace listing pending approval
+- Latest release notes: https://flowdence.io/docs/workatosight/docs/release-notes/release-notes-2026-07-16/
 - Description: Workato operational visibility in Confluence. Cache-backed dashboards, native macros, Workato architecture and API bylines, dependency context, runtime evidence, and documentation coverage for Workato estates.
 
 ## Related Resources
