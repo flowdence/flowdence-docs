@@ -1,12 +1,18 @@
 # Flowdence Docs
 
-> Official documentation for Flowdence products — ApprovalFlow, MuleSight, GrafanaSight, BoomiSight, and WorkatoSight for Atlassian Confluence Cloud.
+> Official documentation for Flowdence Atlassian Forge products, led by ChangeGuard for Jira.
 
 ## Documentation Structure
 
 This site contains setup guides, feature references, policies, and trust resources for all Flowdence products.
 
 ## Products
+
+### ChangeGuard for Jira
+- Docs: https://flowdence.io/docs/changeguard/docs/
+- Product page: https://flowdence.io/products/changeguard
+- Marketplace: Marketplace listing pending approval
+- Description: Govern Jira work-type and workflow changes with immutable policies, pre-publish simulation, controlled enforcement, findings, waivers, compliance reporting, and Audit evidence.
 
 ### ApprovalFlow for Confluence
 - Docs: https://flowdence.io/docs/approvalflow/docs/getting-started/

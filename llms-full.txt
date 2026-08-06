@@ -22,6 +22,32 @@
 - Public documentation: https://flowdence.io/docs/
 - Product blog: https://flowdence.io/blog/
 
+## Product: ChangeGuard for Jira
+
+- Product page: https://flowdence.io/products/changeguard
+- Documentation: https://flowdence.io/docs/changeguard/docs/
+- Getting started: https://flowdence.io/docs/changeguard/docs/getting-started/policy-lifecycle/
+- Marketplace listing: Marketplace listing pending approval
+- Category: Jira change control, policy simulation, governed enforcement, compliance reporting, and audit evidence
+- Built for: Jira administrators, change owners, and governance teams that need to test and control risky work-type or workflow changes.
+- Key capabilities:
+  - Immutable Work Type Safety and Regulated Done policy lifecycle.
+  - Candidate tests plus single-issue and bounded JQL simulation before publishing.
+  - Jira action and workflow safeguards with issue guidance and advisory preflight.
+  - Governance scans, findings, time-bounded waivers, compliance reporting, and Audit exports.
+- Data posture:
+  - Runs on Atlassian Forge with no external remotes or data egress.
+  - Stores app configuration, immutable policy history, simulation progress, governance records, compliance state, and bounded Audit evidence in Atlassian-hosted services.
+  - Uses privacy-safe actor references in durable business records and reports its dedicated account registry through Atlassian's privacy reporting service.
+  - Jira Service Management is readiness discovery only in the initial release.
+- Useful docs:
+  - Installation: https://flowdence.io/docs/changeguard/docs/installation-and-configuration/installation/
+  - Policy lifecycle: https://flowdence.io/docs/changeguard/docs/getting-started/policy-lifecycle/
+  - Simulation: https://flowdence.io/docs/changeguard/docs/getting-started/simulation/
+  - Governance and waivers: https://flowdence.io/docs/changeguard/docs/getting-started/governance-and-waivers/
+  - Audit and health: https://flowdence.io/docs/changeguard/docs/getting-started/health-reporting-and-audit/
+  - Product policies: https://flowdence.io/docs/docs/product-specific-policies/changeguard/privacy-policy/
+
 ## Product: ApprovalFlow for Confluence
 
 - Product page: https://flowdence.io/products/approvalflow
